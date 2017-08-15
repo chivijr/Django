@@ -1,0 +1,27 @@
+2017-07-31 09:33:13.530274: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-07-31 09:33:13.530312: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-07-31 09:33:13.530317: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-07-31 09:33:13.530321: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-07-31 09:33:13.530324: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+[31/Jul/2017 09:33:13] "GET /polls/ HTTP/1.1" 200 18
+Invalid HTTP_HOST header: '192.168.43.16:8081'. You may need to add u'192.168.43.16' to ALLOWED_HOSTS.
+[31/Jul/2017 09:40:48] "GET /polls HTTP/1.1" 400 64994
+Invalid HTTP_HOST header: '192.168.43.16:8081'. You may need to add u'192.168.43.16' to ALLOWED_HOSTS.
+[31/Jul/2017 09:40:52] "GET /polls/ HTTP/1.1" 400 65005
+[31/Jul/2017 10:31:25] "GET /polls/ HTTP/1.1" 200 18
+Invalid HTTP_HOST header: '180.113.4.64:8081'. You may need to add u'180.113.4.64' to ALLOWED_HOSTS.
+[01/Aug/2017 07:39:33] "GET /polls/ HTTP/1.1" 400 64914
+[2017-08-01 07:44:09,142 pyinotify ERROR] The pathname '/root/Django/mysite/mysite/settings.py' of this watch <Watch wd=66 path=/root/Django/mysite/mysite/settings.py mask=4038 proc_fun=None auto_add=False exclude_filter=<function <lambda> at 0x7fbbb57e5410> dir=False > has probably changed and couldn't be updated, so it cannot be trusted anymore. To fix this error move directories/files only between watched parents directories, in this case e.g. put a watch on '/root/Django/mysite/mysite'.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+July 31, 2017 - 09:32:52
+Django version 1.11.3, using settings 'mysite.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+2017-08-01 07:44:10.517930: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-08-01 07:44:10.518002: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-08-01 07:44:10.518017: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-08-01 07:44:10.518027: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-08-01 07:44:10.518037: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+[01/Aug/2017 07:44:10] "GET /polls/ HTTP/1.1" 200 18
